@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Navbar */
+.header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  background: #367cff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+.header img {
+  width: 155px;
+  height: 50px;
+}
+
+.logo {
+  font-size: 32px;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.navbar a {
+  position: relative;
+  font-size: 18px;
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+.navbar a::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: white;
+  transition: 0.3s;
+}
+
+.navbar a:hover:before {
+  width: 100%;
+}
+
+.backgorund {
+  background-color: rgb(194, 191, 191);
+  position: relative;
+  top: 85px;
+  height: 600px;
+  width: 100%;
+  border-radius: 0 0 20px 20px;
+}
+
+.backgorund h1 {
+  text-align: center;
+  font-weight: bolder;
+  padding-top: 30px;
+  font-size: 25px;
+}
+
+.container-2 {
+  display: flex;
+  position: relative;
+  top: 50px;
+  height: auto;
+  padding: 50px;
+  width: 100%;
+}
+/* Navbar end */
+
+
+/* Search bar */
+
+.box {
+  margin: 0 auto;
+  height: 36px;
+  background-color: whitesmoke;
+  width: 65%;
+  border: 1px solid black;
+  outline: none;
+  border-radius: 20px;
+  padding: 20px;
+  font-size: large;
+  font-weight: bold;
+  color: black;
+}
+
+/* search bar end */
+/* .store {
+  background-color: rgb(23, 21, 21);
+  display: flex;
+  position: relative;
+  top: 85px;
+  height: 50px;
+  padding: 50px;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 20px 20px 0 0;
+} */
+
+/* FOOTER */
+footer {
+  background-color: #1f2937;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em 0;
+}
+
+/* footer end */
+
+/* Justify card description */
+.justify-text {
+  text-align: justify;
+  text-justify: distribute-all-lines;
+}
